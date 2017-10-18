@@ -1,0 +1,35 @@
+{
+  "name": "luxcore-message",
+  "version": "1.0.5",
+  "description": "Luxcoin Messages for Litecore",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "keywords": [
+    "luxcoin",
+    "luxcore",
+    "ltc",
+    "satoshi",
+    "message",
+    "signing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/216k155/luxcore-message.git"
+  },
+  "dependencies": {
+    "luxcore-lib": "^0.13.22"
+  },
+  "devDependencies": {
+    "luxcore-build": "216k155/luxcore-build",
+    "brfs": "^1.3.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10"
+  },
+  "license": "MIT"
+}

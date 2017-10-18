@@ -1,0 +1,29 @@
+{
+  "name": "luxcore-message",
+  "main": "./luxcore-message.min.js",
+  "version": "1.0.2",
+  "homepage": "https://github.com/luxcoin-project/luxcore-message",
+  "authors": [
+    "BitPay"
+  ],
+  "description": "Luxcoin Message Verification and Signing for Litecore",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "luxcoin",
+    "luxcore",
+    "ltc",
+    "satoshi",
+    "message",
+    "signing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
